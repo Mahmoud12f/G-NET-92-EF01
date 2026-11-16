@@ -1,10 +1,12 @@
-﻿namespace ReadMore_Books
+﻿using ReadMore_Books.Context;
+
+namespace ReadMore_Books
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            AppDbContext context = new AppDbContext();
         }
     }
 }
